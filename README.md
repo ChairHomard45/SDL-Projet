@@ -4,7 +4,7 @@ gcc src/main.c -o bin/prog -I include -L lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_
 bin\prog.exe 
 
 Commande pour le faire fonctionner sur Linux:
- gcc src/main.c  `sdl-config --cflags --libs` -o bin/prog
+<p> gcc src/main.c  `sdl-config --cflags --libs` -o bin/prog</p>
 bin\prog.exe 
 
 Tous d'abord la fonction TTF qui aurait dù servir pour l'affichage du texte sur l'écran n'a pas fonctionner et je n'avais plus de temps ou d'idée pour que celle-ci fonctione, donc j'ai dû modifier
